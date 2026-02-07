@@ -1,3 +1,3 @@
-from calc import plus
+from calc import *
 
 print(plus(1, 2))
