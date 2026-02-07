@@ -18,8 +18,10 @@ def wcminus(firstNumber, secondNumber):
         return result
 
 def multiply(firstNumber, secondNumber):
-    result = firstNumber * secondNumber
+    result:int = firstNumber * secondNumber
     return result
 
-def divide(firstNumber, secondNumber):
-    pass
+#TODO
+def divide(firstNumber, secondNumber): 
+    result:int = firstNumber // secondNumber
+    return result
