@@ -1,3 +1,3 @@
 from calc import *
 
-print(minus(1, 2))
+print(minus(7, 4, 2))

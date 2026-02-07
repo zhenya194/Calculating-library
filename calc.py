@@ -2,29 +2,30 @@
 
 
 def plus(*numbers):
-    numbers:list[int] = []
     result:int = numbers[0]
+    i:int = 1
     for i in numbers:
         result += numbers[i]
     return result
 
-def minus(firstNumber, secondNumber):
-    result:int = firstNumber - secondNumber
+def minus(*numbers):
+    result:int = numbers[0]
+    i:int = 1
+    for i in numbers:
+        result -= numbers[i]
     return result
 
-def wcminus(firstNumber, secondNumber):
-    result:int = firstNumber - secondNumber
-    error:str = "Error: answer is negative."
-    if secondNumber > firstNumber:
-        return error
-    else:
-        return result
-
-def multiply(firstNumber, secondNumber):
-    result:int = firstNumber * secondNumber
+def multiply(*numbers):
+    result:int = numbers[0]
+    i:int = 1
+    for i in range(len(numbers)):
+        result *= numbers[i]
     return result
 
-#TODO
-def divide(firstNumber, secondNumber): 
-    result:int = firstNumber // secondNumber
+def divide(*numbers): 
+    result:int = numbers[0]
+    i:int = 1
+    for i in numbers:
+        result //= numbers[i]
     return result
+
