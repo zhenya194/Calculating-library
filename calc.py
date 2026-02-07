@@ -2,7 +2,8 @@
 
 
 def plus(firstNumber, secondNumber):
-    pass
+    result = firstNumber + secondNumber
+    return result
 
 def minus(firstNumber, secondNumber):
     pass
