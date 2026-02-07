@@ -1,2 +1,2 @@
-# Calculating-library
+# Calculating library
 Classic calculation library for Python
