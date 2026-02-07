@@ -6,7 +6,8 @@ def plus(firstNumber, secondNumber):
     return result
 
 def minus(firstNumber, secondNumber):
-    pass
+    result = firstNumber - secondNumber
+    return result
 
 def multiply(firstNumber, secondNumber):
     pass
