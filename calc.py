@@ -2,15 +2,24 @@
 
 
 def plus(firstNumber, secondNumber):
-    result = firstNumber + secondNumber
+    result:int = firstNumber + secondNumber
     return result
 
 def minus(firstNumber, secondNumber):
-    result = firstNumber - secondNumber
+    result:int = firstNumber - secondNumber
     return result
 
-def multiply(firstNumber, secondNumber):
-    pass
+def wcminus(firstNumber, secondNumber):
+    result:int = firstNumber - secondNumber
+    error:str = "Error: answer is negative."
+    if secondNumber > firstNumber:
+        return error
+    else:
+        return result
 
-def plus(firstNumber, secondNumber):
+def multiply(firstNumber, secondNumber):
+    result = firstNumber * secondNumber
+    return result
+
+def divide(firstNumber, secondNumber):
     pass
