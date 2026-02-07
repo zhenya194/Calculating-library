@@ -1,8 +1,11 @@
 #                   Main file
 
 
-def plus(firstNumber, secondNumber):
-    result:int = firstNumber + secondNumber
+def plus(*numbers):
+    numbers:list[int] = []
+    result:int = numbers[0]
+    for i in numbers:
+        result += numbers[i]
     return result
 
 def minus(firstNumber, secondNumber):
