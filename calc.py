@@ -31,3 +31,15 @@ def dividef(*numbers):
         result /= numbers[i]
     return result
 
+def divreminder(*numbers):
+    result:int = numbers[0]
+    for i in range(1, len(numbers)):
+        result %= numbers[i]
+    return result
+
+def degree(*numbers):
+    result:int = numbers[0]
+    for i in range(1, len(numbers)):
+        result **= numbers[i]
+    return result
+
