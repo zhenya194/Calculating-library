@@ -1,3 +1,3 @@
 from calc import *
 
-print(minus(7, 4, 2))
+print(divide(10, 2, 2))

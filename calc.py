@@ -25,3 +25,9 @@ def divide(*numbers):
         result //= numbers[i]
     return result
 
+def dividef(*numbers): 
+    result:int = numbers[0]
+    for i in range(1, len(numbers)):
+        result /= numbers[i]
+    return result
+
