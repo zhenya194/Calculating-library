@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+addopts = "--cov=my_library --cov-report=term-missing --cov-report=html"
+testpaths = ["tests"]
