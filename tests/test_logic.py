@@ -1,5 +1,3 @@
-#                           TESTS FOR calc.py
-
 from calculating.calc import plus, minus, multiply, divide, dividef, divreminder, degree
 
 def test_plus():
