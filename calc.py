@@ -1,6 +1,3 @@
-#                   Main file
-
-
 def plus(*numbers):
     result:int = numbers[0]
     for i in range(1, len(numbers)):
