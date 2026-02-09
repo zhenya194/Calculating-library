@@ -1,0 +1,4 @@
+[run]
+omit =
+    calculating/LICENSE
+    calculating/README.md
