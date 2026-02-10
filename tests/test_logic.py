@@ -1,7 +1,14 @@
 from calculating.calc import plus, minus, multiply, divide, dividef, divreminder, degree
 
+# PLUS tests
 def test_plus():
     assert plus(14, 4, 2) == 20
+def test_plus():
+    assert plus(0, 0) == 0
+def test_plus():
+    assert plus(124, 3, 2, 7) == 136
+def test_plus():
+    assert plus(-1, -5, -3) == -9
 
 def test_minus():
     assert minus(15, 7, 6) == 2
