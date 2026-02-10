@@ -1,6 +1,5 @@
 from calculating.calc import plus, minus, multiply, divide, dividef, divreminder, degree
 
-# PLUS tests
 def test_plus():
     assert plus(14, 4, 2) == 20
 def test_plus():
@@ -12,9 +11,21 @@ def test_plus():
 
 def test_minus():
     assert minus(15, 7, 6) == 2
+def test_minus():
+    assert minus(9, 2) == 7
+def test_minus():
+    assert minus(100, 200, 13) == -113
+def test_minus():
+    assert minus(-7, -3) == -10
 
 def test_multiply():
     assert multiply(4, 20) == 80
+def test_multiply():
+    assert multiply(2, 2, 2) == 8
+def test_multiply():
+    assert multiply(-3, -5) == 15
+def test_multiply():
+    assert multiply(4, 2, 5, 1) == 40
 
 def test_divide():
     assert divide(25, 5) == 5
