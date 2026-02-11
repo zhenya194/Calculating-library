@@ -1,3 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calclib"
+version = "1.0"
+authors = [
+  { name="Zhenya" },
+]
+description = "This library adds some functions for arithmetic operations"
+readme = "README.md"
+requires-python = ">=3.11.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [tool.pytest.ini_options]
-addopts = "--cov=my_library --cov-report=term-missing --cov-report=html"
+addopts = "--cov=calclib --cov-report=term-missing"
 testpaths = ["tests"]
+
+[project.urls]
+"Homepage" = "https://github.com/zhenya194/Calculating-library"
