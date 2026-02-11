@@ -1,4 +1,4 @@
-from calculating.calc import plus, minus, multiply, divide, dividef, divreminder, degree
+from calclib import plus, minus, multiply, divide, dividef, divreminder, degree
 
 def test_plus():
     assert plus(14, 4, 2) == 20
