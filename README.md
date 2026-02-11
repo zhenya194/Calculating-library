@@ -6,7 +6,7 @@ Classic calculation library for Python.
 
 # Usage
 
-In your terminal write:
+To install this library, in your terminal write:
 `pip install calclibr`
 
 # Commands
