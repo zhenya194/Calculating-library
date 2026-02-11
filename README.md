@@ -6,8 +6,8 @@ Classic calculation library for Python.
 
 # Usage
 
-Download `calc.py` file from releases and put it in a directory with your project.
-Next, in your .py file import this library. For example: `from calc import plus`.
+In your terminal write:
+`pip install calclibr`
 
 # Commands
 
