@@ -1,6 +1,7 @@
 # Calculating library
 
 [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-green.svg)](./LICENSES/GPL-3.0-or-later.txt)
+[![Python](https://img.shields.io/badge/python-3.14.2.svg)]
 
 # Description
 
