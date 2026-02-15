@@ -2,20 +2,20 @@
 
 [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-green.svg)](./LICENSES/GPL-3.0-or-later.txt)
 
-# Description
+## Description
 
 Classic calculation library for Python.
 
-# Usage
+## Usage
 
 To install this library, in your terminal write:
 `pip install calclibr`
 
-# Commands
+## Commands
 
 Read our [wiki](https://github.com/zhenya194/Calculating-library/wiki) to see the commands of this library.
 
-# Libraries
+## Libraries
 
 This project use `pytest` library for tests.
 
