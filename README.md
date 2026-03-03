@@ -4,9 +4,6 @@
 
 Classic calculation library for Python.
 
-> [!IMPORTANT]
-> Archived.
-
 ## Usage
 
 To install this library, in your terminal write:
